@@ -1,0 +1,49 @@
+.root {
+    -fx-background-color: linear-gradient(#4568DC, #B06AB3), radial-gradient(center 50% 50%, radius 50%, #FFFFFF33, #00000033);
+}
+
+.btnExit {
+    -fx-background-color: transparent;
+    -fx-background-image: url("https://img.icons8.com/cute-clipart/2x/exit.png");
+    -fx-background-size: 60px;
+}
+
+.btnSave {
+    -fx-background-color: transparent;
+    -fx-background-image: url("https://img.icons8.com/cute-clipart/2x/ffffff/save.png");
+    -fx-background-size: 60px;
+}
+
+.btnMove {
+    -fx-background-color: transparent;
+    -fx-background-image: url("https://img.icons8.com/fluency/2x/data-in-both-directions.png");
+    -fx-background-size: 60px;
+}
+
+.btnLoad {
+    -fx-background-color: transparent;
+    -fx-background-image: url("https://img.icons8.com/officel/2x/ffffff/import-csv.png");
+    -fx-background-size: 60px;
+}
+
+.btnDelete {
+    -fx-background-color: transparent;
+    -fx-background-image: url("https://img.icons8.com/fluency/2x/filled-trash.png");
+    -fx-background-size: 60px;
+}
+
+
+.savePane {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.7, 4, 4);
+    -fx-border-style: solid;
+}
+
+.songTable {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.7, 4, 4);
+    -fx-border-style: solid;
+}
+
+.btnLoad:hover, .btnMove:hover, .btnSave:hover, .btnExit:hover, .btnDelete:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0.7, 4, 4);
+    -fx-cursor: hand;
+}
